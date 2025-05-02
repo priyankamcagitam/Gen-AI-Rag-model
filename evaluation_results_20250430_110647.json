@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-04-30T11:06:37.048218",
+  "questions": [
+    {
+      "question": "What are the deliverables for this project?",
+      "rag_response": "The deliverables for the project include:\n1. Comprehensive documentation and training (from Project ID PRJ-8856)\n2. A high-quality solution that meets all requirements (from Project ID PRJ-8190)\n3. Completion of project kickoff phase\n4. Completion of requirements analysis phase\n5. Completion of design phase\n6. Completion of development phase\n7. Completion of testing phase (from Project ID PRJ-8190)",
+      "ground_truth": "The deliverables for the project include:\n1. Comprehensive documentation and training (Project Objectives - Software Development)\n2. High-quality solution meeting all requirements (Project Objectives - Digital Transformation)\n3. Completion of project kickoff phase\n4. Completion of requirements analysis phase\n5. Completion of design phase\n6. Completion of development phase\n7. Completion of testing phase (Digital Transformation)",
+      "evaluation": {
+        "exact_match": false,
+        "key_points_matched": 7,
+        "total_key_points": 7,
+        "key_points_coverage": 1.0
+      },
+      "metrics": {
+        "response_time": 2.107980489730835,
+        "query_time": 1.3884329795837402,
+        "faithfulness_score": 0.8020111351168296
+      }
+    },
+    {
+      "question": "What is the project duration?",
+      "rag_response": "The project duration from the SOW documents is from 2025-05-24 (start of requirements analysis phase) to 2025-09-30 (completion of project closure phase), which is approximately 4 months and 6 days.",
+      "ground_truth": "The project duration can be calculated based on the timeline provided in the SOW documents. \nThe project starts with the Requirements Analysis phase on 2025-05-24 and ends with the Project Closure phase on 2025-09-30. \nTherefore, the project duration is approximately 4 months and 6 days.",
+      "evaluation": {
+        "exact_match": false,
+        "key_points_matched": 0,
+        "total_key_points": 3,
+        "key_points_coverage": 0.0
+      },
+      "metrics": {
+        "response_time": 1.739243984222412,
+        "query_time": 0.9879364967346191,
+        "faithfulness_score": 0.6401792295978126
+      }
+    },
+    {
+      "question": "What are the payment terms?",
+      "rag_response": "The payment terms mentioned in the provided SOW documents are net 30 days from the invoice date. This means that payment is due within 30 days of the invoice being issued. This information is consistent across all the SOW documents provided.",
+      "ground_truth": "The payment terms mentioned in the provided SOW documents are net 30 days from the invoice date. \nThis information is consistent across multiple sections of the SOWs, indicating that payment is expected within 30 days of receiving the invoice.",
+      "evaluation": {
+        "exact_match": false,
+        "key_points_matched": 1,
+        "total_key_points": 3,
+        "key_points_coverage": 0.3333333333333333
+      },
+      "metrics": {
+        "response_time": 1.6132121086120605,
+        "query_time": 0.9879422187805176,
+        "faithfulness_score": 0.596827197426992
+      }
+    },
+    {
+      "question": "What are the key milestones?",
+      "rag_response": "The key milestones for the project based on the provided SOW documents are as follows:\n\n1. Project Kickoff: Completion of project kickoff phase on 2025-04-29\n2. Requirements Analysis: Completion of requirements analysis phase on 2025-05-24\n3. Design Phase: Completion of design phase phase on 2025-06-19\n4. Development Phase: Completion of development phase phase on 2025-07-15\n5. Testing Phase: Completion of testing phase phase on 2025-08-09\n6. Deployment: Completion of deployment phase on 2025-09-04\n7. Project Closure: Project closure on 2025-09-30\n\nThese milestones outline the timeline for the project and mark the completion of each phase as specified in the SOW documents.",
+      "ground_truth": "The key milestones for the project based on the provided SOW documents are as follows:\n\n1. Project Kickoff: Completion of project kickoff phase on 2025-04-29\n2. Requirements Analysis: Completion of requirements analysis phase on 2025-05-24\n3. Design Phase: Completion of design phase phase on 2025-06-19\n4. Development Phase: Completion of development phase phase on 2025-07-15\n5. Testing Phase: Completion of testing phase phase on 2025-08-09\n6. Deployment: Completion of deployment phase on 2025-09-04\n7. Project Closure: Project closure on 2025-09-30",
+      "evaluation": {
+        "exact_match": false,
+        "key_points_matched": 0,
+        "total_key_points": 7,
+        "key_points_coverage": 0.0
+      },
+      "metrics": {
+        "response_time": 3.2643399238586426,
+        "query_time": 1.982391119003296,
+        "faithfulness_score": 0.8197750254603703
+      }
+    },
+    {
+      "question": "What is included in the project scope?",
+      "rag_response": "The project scope includes requirements gathering and analysis, system design and architecture, development and implementation, testing and quality assurance, deployment and training. It also involves ensuring effective communication and collaboration with stakeholders. Hardware procurement and third-party software licensing are explicitly mentioned as out of scope activities in the provided SOW documents.",
+      "ground_truth": "The project scope includes requirements gathering and analysis, system design and architecture, \ndevelopment and implementation, testing and quality assurance, deployment and training. It also involves ensuring \neffective communication and collaboration with stakeholders. Hardware procurement and third-party software licensing \nare explicitly mentioned as out of scope activities in the provided SOW documents.",
+      "evaluation": {
+        "exact_match": false,
+        "key_points_matched": 6,
+        "total_key_points": 8,
+        "key_points_coverage": 0.75
+      },
+      "metrics": {
+        "response_time": 1.892775535583496,
+        "query_time": 1.1418004035949707,
+        "faithfulness_score": 0.8344709132581902
+      }
+    }
+  ],
+  "overall_metrics": {
+    "average_key_points_coverage": 0.41666666666666663,
+    "average_faithfulness_score": 0.7386527001720389,
+    "total_questions": 5
+  }
+}
